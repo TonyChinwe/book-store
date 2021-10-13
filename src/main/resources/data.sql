@@ -1,0 +1,75 @@
+INSERT INTO AUTHORS (ID,FIRST_NAME,LAST_NAME) VALUES
+(1, 'Chinua','Achebe'),
+(2, 'William','Shakespeare'),
+(3, 'Leo','Tolstoy'),
+(4, 'Charles','Dickens'),
+(5, 'Mark','Twain'),
+(6, 'Jane','Austen'),
+(7, 'Virginia','Woolf'),
+(8, 'James','Joyce'),
+(9, 'Jorge','Orwell'),
+(10, 'Agatha','Christie'),
+(11, 'Chimamanda','Ngozi-Adichie');
+
+
+INSERT INTO category (ID,NAME) VALUES
+(1, 'algebra'),
+(2, 'geometry'),
+(3, 'home economics'),
+(4, 'drama'),
+(5, 'physical education'),
+(6, 'poetry'),
+(7, 'grammar'),
+(8, 'english literature'),
+(9, 'journalism'),
+(10, 'drawing'),
+(11, 'painting'),
+(12, 'sculpture'),
+(13, 'physics'),
+(14, 'chemistry'),
+(15, 'biology'),
+(16, 'geology'),
+(17, 'astronomy'),
+(18, 'botany'),
+(19, 'igbo'),
+(20, 'french'),
+(21, 'hebrew'),
+(22, 'german');
+
+INSERT INTO publishers (ID,NAME) VALUES
+(1, 'Penguin Random House'),
+(2, 'Pearson Education'),
+(3, 'Simon & Schuster'),
+(4, 'Springer Nature'),
+(5, 'Scholastic'),
+(6, 'Harper Collins'),
+(7, 'Lantern Books'),
+(8, 'Klett'),
+(9, 'Cengage'),
+(10, 'Ace Books'),
+(12, 'Balboa Press'),
+(13, 'Random House'),
+(14, 'Kodansha'),
+(15, 'Wiley'),
+(16, 'McGraw-Hill Education'),
+(17, 'Awesome Books'),
+(18, 'The Books Master'),
+(19, 'Viking Press'),
+(20, 'Grand books'),
+(21, 'Mercury Books'),
+(22, 'Prime Publications');
+
+
+INSERT INTO book_type (ID,NAME) VALUES
+(1, 'Fiction'),
+(2, 'Non-Fiction'),
+(3, 'Self-Help'),
+(4, 'History'),
+(5, 'Myth'),
+(6, 'Biography'),
+(7, 'Poems'),
+(8, 'Romance'),
+(9, 'Classic'),
+(10, 'Crime'),
+(12, 'Thriller');
+
